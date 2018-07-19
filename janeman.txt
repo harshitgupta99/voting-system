@@ -1,0 +1,15 @@
+create table info;
+create table info (AadharNo varchar(12),Name varchar(20),phone_no varchar(10),status varchar(1),opt varchar(6));
+insert into info  values ("987209876541","harshit gupta","8901334612","n"),("987209876542","akshat kumar","9773902688","n"),
+                 ("987209876543","prateek jha","9968513452","n"),("987209876544","harshit dawar","8285095900","n"),
+                 ("987209876545","rathang rajpal","9988665985","n"),("987209876546","bhaya ahuja","9999231490","n"),
+                 ("987209876547","akash nishad","7964856947","n"),("987209876548","mukul thakur","9876542561","n"),
+                 ("987209876549","anirudh singh","9968457965","n"),("987209876550","urvee kumar","8856345674","n"),
+                 ("987209876551","arjun sharma","8897758649","n"),("987209876552","manveen walia","9865748659","n"),
+                 ("987209876553","sarthak gupta","9889600000","n"),("987209876554","ayushi lohia","7785694586","n");
+
+create table id(userid varchar(20), pass varchar(20));
+insert into id values ("eca01","pass@123"),("eca02","pass@456"),
+                      ("eca03","pass@789"),("eca04","pass@012"),
+                      ("eca05","pass@345");
+                 
